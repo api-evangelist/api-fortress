@@ -1,0 +1,53 @@
+{
+    "name": "API Fortress",
+    "description": "API Fortress: Automated API Testing for Enterprises",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2946-api-fortress.jpg",
+    "tags": [
+        "api service provider",
+        "have api",
+        "monitoring",
+        "testing"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/api-fortress\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "API Fortress",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2946-api-fortress.jpg",
+            "humanURL": "http:\/\/apifortress.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": []
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/apifortress.com\/blog\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/api-fortress"
+        },
+        {
+            "type": "Email",
+            "url": "info@apifortress.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@apifortress.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/apifortress"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/apifortress.com"
+        }
+    ]
+}
