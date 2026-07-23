@@ -1,7 +1,24 @@
 aid: api-fortress
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api-fortress.png
 name: API Fortress
-description: API Fortress is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: API Fortress was an API testing and monitoring platform that let engineering teams author,
+  run, and continuously monitor functional and integration tests against REST and SOAP APIs, in the cloud
+  or via an on-premise Docker-based agent. It was acquired by Sauce Labs in January 2020 and its capabilities
+  were folded into the Sauce Labs API Testing product. The standalone apifortress.com developer surface has
+  since been retired; as of this enrichment pass the domain no longer resolves (parked Route53 nameservers,
+  no A records), the apifortress GitHub organization returns 404, and there is no live first-party API, docs,
+  SDK, or well-known surface remaining to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/api-fortress/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: sauce-labs
+x-enrichment-note: 'Defunct/acquired: apifortress.com does not resolve (no A records), GitHub org 404,
+  no live public API/docs/SDK surface as of 2026-07-17. Nothing available to search/generate/derive.'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- API Testing
+- API Monitoring
+- Continuous Testing
+- Quality Assurance
+- DevOps
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://apifortress.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
