@@ -31,3 +31,16 @@
     year: '2015'
   status: not-a-workflow
   arazzo: null
+- slug: api-fortress-jenkins-own
+  label: Jenkins (own)
+  partner: jenkins
+  partner_name: Jenkins (own)
+  category: Jenkins plugin
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://plugins.jenkins.io/apifortress/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
